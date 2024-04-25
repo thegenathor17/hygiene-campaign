@@ -1,0 +1,72 @@
+header{
+    background-color: #B0D4D2;
+}
+.title{
+    margin: 80px;
+    font-family: serif;
+    font-style: oblique;
+    color: white;
+    font-size: 500px;
+}
+.title2{
+    margin: 80px;
+    font-family: serif;
+    font-style: oblique;
+    color: white;
+    font-size: 250px;
+    text-align: center;
+}
+body
+{
+    background-color: #B0D4D2;
+}
+.text
+{
+    font-family: sans-serif;
+    font: Arial;
+    font-size: 20px;
+    color: #507482;
+}
+.tableText
+{
+    font-family: sans-serif;
+    font: arial;
+    font-size: 20px;
+    font-style: bold;
+    margin: 10px;
+    color:     #507482;
+;
+}
+.subtitle
+{
+    font-family: serif;
+    font-size: 40px;
+    font-style: inherit;
+    font: georgia;
+    color: #507482;
+}
+.superSubtitle
+{
+    font-family: serif;
+    font-size: 25px;
+    font-style: inherit;
+    font: georgia;
+    color: #507482;
+}
+img {
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 300px;
+  }
+.button
+{
+    margin: 10px;
+    font-size: 30px;
+    background-color: white;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    color: #507482;
+    padding: 15px 40px;
+}
