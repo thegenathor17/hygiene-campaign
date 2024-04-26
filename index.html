@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=
     , initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="talentos_logo-removebg-preview.png"/>
     <title>Fomentando los habitos saludables</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>    
     <script>
-        function showerBenfitsRedirection()
+        function shower()
         {
             window.location.href = "showerBenefits.html"
         }
@@ -42,6 +43,10 @@
         {
             window.location.href = "aboutUs.html"
         }
+        function campaign()
+        {
+            window.location.href = "aboutOurCampaign.html"
+        }
     </script>
     <h1 class="title">Hola!</h1>
     <br>
@@ -57,14 +62,14 @@
 
     </p>
     <p class="text">Mira aquí los artículos disponibles: </p>
-    <table>
+    <table class="tableAlign">
         <tr>
             <th>
                 <p class="tableText">¿Para que bañarme?</p>
-                <button class="button" onclick="showerBenefitsRedirection()">Ir</button>
+                <button class="button" onclick="shower()">Ir</button>
             </th>
             <th>
-                <p class="tableText">¿Porqué lavarme los dientes?</p>
+                <p class="table text">¿Porqué lavarme los dientes?</p>
                 <button class="button" onclick="theet()">Ir</button>
             </th>
             <th >
@@ -97,7 +102,7 @@
             </th>
             <th>
                 <p class="tableText">Sobre la campaña</p>
-                <button class="button" onclick="">Ir</button>
+                <button class="button" onclick="campaign()">Ir</button>
             </th>
         </tr>
     </table>
