@@ -137,4 +137,10 @@ img {
     {
         font-size: 25px;
     }
+    .superBack
+    {
+        width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
