@@ -144,3 +144,40 @@ img {
         margin-right: auto;
     }
 }
+@media (max-width: 1200px){
+    .title{
+        font-size: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .title2{
+        margin-top: 50%;
+        margin-bottom: 50%;
+        margin: 0px;
+        font-size: 100px;
+        text-align: center;
+    }
+    .text
+    {
+      font-size: 20px;
+    }
+    .tableText
+    {
+     font-size: 20px;
+    }
+    .subtitle
+    {
+      font-size: 35px;
+    }
+    .superSubtitle
+    {
+        font-size: 30px;
+    }
+    .superBack
+    {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
