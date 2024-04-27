@@ -42,13 +42,3 @@ function shower()
         {
             window.location.href = "https://www.instagram.com/habitos.de.higiene.2b/"
         }
-        function youtube()
-        {
-            window.location.href =""
-        }
-        window.addEventListener('beforeunload', function(event) {
-            document.title = "¡No te vayas!";
-            
-            var confirmationMessage = "¿Ya te vas? Te lo advertimos, seguiras oliendo como a alguien que le gustan las sabritas crema y especias.";
-            return confirmationMessage;
-        });
