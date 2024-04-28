@@ -42,3 +42,4 @@ function shower()
         {
             window.location.href = "https://www.instagram.com/habitos.de.higiene.2b/"
         }
+        core.autocrlf = input
