@@ -1,3 +1,4 @@
+
         function shower()
         {
             window.location.href = "showerBenefits.html"
@@ -43,6 +44,3 @@
             window.location.href = "https://www.instagram.com/habitos.de.higiene.2b/" 
         }
 core.autocrlf = input
-import { dev } from '$app/environment';
-import { inject } from '@vercel/analytics';
-inject({ mode: dev ? 'development' : 'production' });
