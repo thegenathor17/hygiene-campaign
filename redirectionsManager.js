@@ -1,3 +1,6 @@
+import React, { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import { Analytics } from "@vercel/analytics/react"
 function shower()
         {
             window.location.href = "showerBenefits.html"
