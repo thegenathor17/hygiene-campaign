@@ -1,6 +1,7 @@
-import React, { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import { Analytics } from "@vercel/analytics/react"
+import { dev } from '$app/environment';
+import { inject } from '@vercel/analytics';
+ 
+inject({ mode: dev ? 'development' : 'production' });
 function shower()
         {
             window.location.href = "showerBenefits.html"
